@@ -6,8 +6,8 @@
 
   <groupId>com.misagh</groupId>
   <artifactId>RegionTrader</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <name>TradePlugin</name>
+  <version>1.0</version>
+  <name>RegionTrader</name>
   <packaging>jar</packaging>
 
 

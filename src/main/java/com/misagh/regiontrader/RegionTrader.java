@@ -24,13 +24,14 @@
  *
  */
 
-package com.misagh.tradeplugin;
+package com.misagh.regiontrader;
 
 /**
  * Vault imports for integrating the economy system
  */
 import net.milkbowl.vault.economy.Economy;
 
+import com.misagh.regiontrader.*;
 /**
  * Bukkit API imports
  */
@@ -39,7 +40,7 @@ import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
- * Main plugin class for TradePlugin
+ * Main plugin class for RegionTrader
  */
 public class RegionTrader extends JavaPlugin {
    /**
@@ -50,7 +51,7 @@ public class RegionTrader extends JavaPlugin {
    /**
     * Static instance of the plugin
     */
-   private static TradePlugin instance;
+   private static RegionTrader instance;
 
    /**
     * Called when the plugin is enabled
@@ -68,7 +69,7 @@ public class RegionTrader extends JavaPlugin {
       registerCommand("sellhouse", new HouseCommand(economy));
       registerCommand("buyhouse", new HouseCommand(economy));
 
-      getLogger().info("TradePlugin enabled! (Author: f35j#0000)");
+      getLogger().info("RegionTrader enabled! (Author: f35j#0000)");
    }
 
    /**
@@ -76,14 +77,14 @@ public class RegionTrader extends JavaPlugin {
     */
    @Override
    public void onDisable() {
-      getLogger().info("TradePlugin disabled. Hope you enjoyed it!");
+      getLogger().info("RegionTrader disabled. Hope you enjoyed it!");
    }
 
    /**
     * Gets the plugin instance
-    * @return instance of TradePlugin
+    * @return instance of RegionTrader
     */
-   public static TradePlugin getInstance() {
+   public static RegionTrader getInstance() {
       return instance;
    }
 

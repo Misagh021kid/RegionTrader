@@ -1,6 +1,6 @@
-name: TradePlugin
+name: ReigonTrader
 version: '1.0-SNAPSHOT'
-main: com.misagh.tradeplugin.TradePlugin
+main: com.misagh.regiontrader.RegionTrader
 api-version: '1.20'
 load: POSTWORLD
 depend:

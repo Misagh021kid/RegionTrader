@@ -1,4 +1,4 @@
-package com.misagh.tradeplugin;
+package com.misagh.regiontrader;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -113,7 +113,7 @@ public class HouseCommand implements CommandExecutor {
                targetPlayer.sendMessage(ChatColor.RED + "The offer from " + player.getName() + " for region '" + regionName + "' has expired.");
             }
          }
-      }.runTaskLater(TradePlugin.getInstance(), 1200L);
+      }.runTaskLater(RegionTrader.getInstance(), 1200L);
 
       player.sendMessage(ChatColor.GREEN + "You have offered region '" + regionName + "' to " + targetPlayer.getName() + " for $" + sellPrice);
       targetPlayer.sendMessage(ChatColor.YELLOW + player.getName() + " has offered to sell region '" + regionName + "' to you for $" + sellPrice);

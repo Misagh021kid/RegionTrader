@@ -1,0 +1,15 @@
+name: ReigonTrader
+version: '1.0-SNAPSHOT'
+main: com.misagh.regiontrader.RegionTrader
+api-version: '1.20'
+load: POSTWORLD
+depend:
+  - Vault
+  - AdvancedRegionMarket
+commands:
+  sellhouse:
+    description: Send Request to Sell Region
+    usage: /sellhouse <region-name> <player>
+  buyhouse:
+    description: Accept (Buy) The Request To Buy Region
+    usage: /buyhouse <region-name> <player>
