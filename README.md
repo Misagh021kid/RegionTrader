@@ -26,7 +26,7 @@
 
 ```
 /sellhouse <player> <house> <price>       → Send a Request
-/buyhouse <player>       → Accept a Request
+/buyhouse <player>                        → Accept a Request
 ```
 ---
 
