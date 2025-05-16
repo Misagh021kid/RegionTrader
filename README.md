@@ -10,7 +10,7 @@
 - 🏠 Simple `/sellhouse` & `/buyhouse` commands
 - 💾 Lightweight and efficient
 - 📜 Easy to configure
-- 🧩 Compatible with Paper/Purpur 1.20+
+- 🧩 Compatible with Paper/Purpur 1.16+
 
 ---
 
