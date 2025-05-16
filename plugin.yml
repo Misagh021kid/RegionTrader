@@ -2,18 +2,14 @@ name: TradePlugin
 version: '1.0-SNAPSHOT'
 main: com.misagh.tradeplugin.TradePlugin
 api-version: '1.20'
-load: STARTUP
+load: POSTWORLD
+depend:
+  - Vault
+  - AdvancedRegionMarket
 commands:
   sellhouse:
-    description: فروش یک منطقه به بازیکن دیگر.
-    usage: /sellhouse <بازیکن> <نام منطقه>
+    description: Send Request to Sell Region
+    usage: /sellhouse <region-name> <player>
   buyhouse:
-    description: خرید یک منطقه از بازیکن دیگر.
-    usage: /buyhouse <بازیکن> <نام منطقه>
-  tradehouse:
-    description: Trade house between players.
-    usage: /tradehouse <player> <region> <price>
-  tradeDecline:
-    description: Trade house between players.
-    usage:
-  tradeaccept:
+    description: Accept (Buy) The Request To Buy Region
+    usage: /buyhouse <region-name> <player>
