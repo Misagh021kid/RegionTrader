@@ -1,4 +1,3 @@
-```markdown
 # 🔥 RegionTrader Plugin
 
 `RegionTrader` is a custom Minecraft plugin for Paper/Purpur servers that allows players to sell or buy region with server system.
@@ -73,4 +72,3 @@ Found a bug or have a suggestion? Feel free to open an issue or contact me:
 ## 📜 License
 
 MIT License – free to use, modify, and share. Just give credit where it's due. 😉
-```
