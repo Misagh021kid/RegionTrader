@@ -41,7 +41,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 /**
  * Main plugin class for TradePlugin
  */
-public class TradePlugin extends JavaPlugin {
+public class RegionTrader extends JavaPlugin {
    /**
     * Static instance of the economy provider
     */

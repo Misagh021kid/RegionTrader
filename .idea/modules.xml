@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/META-INF/maven/com.misagh/tradeplugin/tradeplugin.iml" filepath="$PROJECT_DIR$/META-INF/maven/com.misagh/tradeplugin/tradeplugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/META-INF/maven/com.misagh/tradeplugin/RegionTrader.iml" filepath="$PROJECT_DIR$/META-INF/maven/com.misagh/tradeplugin/RegionTrader.iml" />
     </modules>
   </component>
 </project>

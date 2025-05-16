@@ -98,7 +98,7 @@ public class HouseCommand implements CommandExecutor {
       double minPrice = originalPrice / 2.0;
 
       if (sellPrice < minPrice || sellPrice > originalPrice) {
-         player.sendMessage(ChatColor.RED + "Price must be between " + minPrice + " and " + originalPrice + ".");
+         player.sendMessage(ChatColor.RED + "Price Should be between " + minPrice + " and " + originalPrice + ".");
          return true;
       }
 
